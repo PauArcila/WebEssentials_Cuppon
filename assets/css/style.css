@@ -1,0 +1,75 @@
+body {
+  font-family: 'Roboto', 'sans-serif';
+  padding-top: 50px; /*ancho del nav*/
+}
+
+.navbar-brand img{
+  width: 120px;
+}
+
+.navbar-nav * {
+  text-align: right;
+}
+
+.success{
+  background-color: #28A745;
+}
+
+.logo-black{
+	width: 120px;
+}
+
+footer p{
+	font-size: 0.9em;
+	line-height: 95%;
+}
+
+.card p, h5{
+	margin-bottom: 0px;
+	line-height: 100%;
+}
+
+/*
+pt = 3/4*px
+em = pt/12
+% = pt*100/12  */
+
+.titulo-oferta{
+	color: #212529;
+	font-size: 1.6em; /*20pt;*/
+	font-weight: 300;
+}
+
+.subtitulo-oferta{
+	color: ##707070;
+	font-size: 1.3em;/*16pt;*/
+	font-weight: 300;
+}
+
+.txt-ubicacion{
+	color: ##707070;
+	font-size: 1.08em;/*13pt;*/
+	font-weight: 300;
+}
+
+.texto-precio-oferta{
+	color: #28A745;
+	font-size: 1.6em; /*20pt;*/
+	font-weight: 500;
+}
+
+.texto-precio-ant{
+	color: #707070;
+	font-size: 1.3em;/*16pt;*/
+	font-weight: 300;
+}
+
+
+.card-link:hover {
+    color: #034732;
+}
+
+.tarjeta{
+	 height: 14em;
+   width: auto;
+}
